@@ -6,7 +6,7 @@ import HookCounter from "./component/useEffect/functional/HookCounter";
 function App() {
   return (
     <div className="App">
-      {/* <ClassCounterOne /> */}
+      <ClassCounterOne />
       <HookCounter />
     </div>
   );
