@@ -1,21 +1,13 @@
 import logo from "./logo.svg";
 import "./App.css";
-import ClassCounter from "./component/ClassCounter";
-import HooksCounter from "./component/HooksCounter";
-import HookCounterTwo from "./component/HookCounterTwo";
-import ClassCounterTwo from "./component/ClassCounterTwo";
-import HookCounterThree from "./component/HookCounterThree";
-import HookCounterFour from "./component/HookCounterFour";
+import ClassCounterOne from "./component/useEffect/class/ClassCounterOne";
+import HookCounter from "./component/useEffect/functional/HookCounter";
 
 function App() {
   return (
     <div className="App">
-      {/* <ClassCounter />
-      <HooksCounter /> */}
-      {/* <ClassCounterTwo /> */}
-      {/* <HookCounterTwo /> */}
-      {/* <HookCounterThree /> */}
-      <HookCounterFour />
+      {/* <ClassCounterOne /> */}
+      <HookCounter />
     </div>
   );
 }
